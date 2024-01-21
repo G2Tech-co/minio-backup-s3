@@ -1,0 +1,11 @@
+services:
+  minio-backup-s3:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: minio-backup-s3
+    environment:
+      - MC_HOST_SOURCE=https://<Access Key>:<Secret Key>@<YOUR-S3-ENDPOINT>
+      - MC_HOST_DESTINATION=https://<Access Key>:<Secret Key>@<YOUR-S3-ENDPOINT>
+      - SCHEDULE="@daily"
+      # - SCHEDULE="0 0 */4 * * *"
