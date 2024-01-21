@@ -3,7 +3,7 @@ FROM alpine:latest
 LABEL org.opencontainers.image.authors="Arsalan Sefidgar <arsalan.sefidgar@gmail.com>"
 LABEL org.opencontainers.image.vendor="G2Tech"
 LABEL org.opencontainers.image.title="minio-backup-s3"
-LABEL org.opencontainers.image.description="minio-backup-s3 exporter for G2Tech products"
+LABEL org.opencontainers.image.description="minio-backup-s3 for G2Tech products"
 LABEL org.opencontainers.image.source="https://github.com/G2Tech-co/minio-backup-s3"
 LABEL org.opencontainers.image.url="https://github.com/G2Tech-co/minio-backup-s3"
 LABEL org.opencontainers.image.documentation="https://github.com/G2Tech-co/minio-backup-s3"
